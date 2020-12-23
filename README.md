@@ -1,7 +1,31 @@
+# Title
 
-# Boostrap 4 Github Pages
+Description
 
-[![Build Status](https://travis-ci.org/nicolas-van/bootstrap-4-github-pages.svg?branch=master)](https://travis-ci.org/nicolas-van/bootstrap-4-github-pages)
+
+## Requirements (for development)
+
+You need [Jekyll](https://jekyllrb.com/) and to run this project on your local machine.  
+
+- [node](https://www.npmjs.com/get-npm)
+- [python](https://www.python.org/) (for scripts)
+
+### install dependencies
+
+run `npm install` and `bundle install`
+
+
+## Build
+
+Run `npm run build` (for production code) or `npm run build-dev` (for development code).  
+or just run `./build.sh` for both. _(generate both bundle.js and bundle.min.js)_
+
+## Run
+
+Run `npm run start` or `bundle exec jekyll serve`.
+
+
+## Powered by Boostrap 4 Github Pages
 
 A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
@@ -12,10 +36,6 @@ A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](h
 
 [See the website for demonstration and documentation](https://nicolas-van.github.io/bootstrap-4-github-pages/).
 
-## Contribution
-
-[See the contribution guide.](./CONTRIBUTING.md)
-
 ## License
 
-[See the license file.](./LICENSE.md)
+[See the license file.](./LICENSE)

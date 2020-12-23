@@ -13,16 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bootstrap 4 Github Pages
-email: ""
-description: >- # this means to ignore newlines until "baseurl:"
-  A Bootstrap 4 start up project for Jekyll and Github Pages
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
-
-repository: "nicolas-van/bootstrap-4-github-pages"
+title: Title
+email: "hircreacc@gmail.com"
+description: >- 
+  Description
+short_description: >- # this means to ignore newlines until "baseurl:"
+  Descr.
+baseurl: "/bootstrap-4-github-pages" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: furudbat
+github_username:  furudbat
+author: FurudBat
+github_link: "https://github.com/furudbat/bootstrap-4-github-pages"
+theme: jekyll-theme-midnight
 
 # Build settings
 plugins:
@@ -36,7 +39,22 @@ header_pages:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - .gitignore
+  - .jshintrc
   - Gemfile
   - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - tsconfig.json
   - node_modules
-  - update_boostrap.sh
+  - scripts
+  - resources
+  - requirements.txt
+  - update_dependencies.sh
+  - build.sh
+
+options:
+  useCache: false
+
+version: '0.1.0'
