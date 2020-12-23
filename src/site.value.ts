@@ -1,7 +1,8 @@
 
 export interface SiteValue {
     data: {
-        /// more data
+        assets_url: string,
+        /// more data here, see default.html
         strings: any
     },
     version: string;
